@@ -1,0 +1,15 @@
+:root {
+  ---background-color: white;
+  ---text-color: #444;
+  ---label-color: #777;
+  ---light-border: rgb(203, 203, 203);
+  ---accent-color: #fe6d34;
+  ---selection-background-color: #ddd;
+  ---border-color: #444;
+  ---selected-background: rgba(100, 100, 100, 0.1);
+  ---color-options-border: white;
+  ---button-background: hsl(210deg 100% 56%);
+  ---button-background-hover: hsl(210deg 100% 50%);
+  ---button-text-color: white;
+  ---link-color: blue;
+}

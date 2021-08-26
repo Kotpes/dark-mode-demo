@@ -1,0 +1,12 @@
+:root {
+  ---background-color: black;
+  ---text-color: white;
+  ---label-color: rgb(163, 245, 251);
+  ---light-border: hsl(0deg 0% 40%);
+  ---border-color: white;
+  ---selected-background: rgba(255, 255, 255, 0.2);
+  ---button-text-color: var(---text-color);
+  ---selection-background-color: var(---selected-background);
+  ---link-color: hsl(60deg 100% 45%);
+  ---color-options-border: hsl(0deg 0% 70%);
+}

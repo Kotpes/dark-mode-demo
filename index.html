@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="color-scheme" content="dark light">
+
+    <link rel="stylesheet" href="dark.css" media="(prefers-color-scheme: dark)">
+    <link rel="stylesheet" href="light.css"
+        media="(prefers-color-scheme: no-preference), (prefers-color-scheme: light)">
+
+    <link rel="stylesheet" href="styles.css">
+    <title>iPhone 8</title>
+</head>
+<script>
+    const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const userPrefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+    console.log({ userPrefersDark, userPrefersLight })
+</script>
+
+<body>
+    <section class="content">
+        <div class="image">
+
+            <picture>
+                <source srcset="img/swappie-product-iphone-8-gold-dark.png" media="(prefers-color-scheme: dark)" />
+                <source srcset="img/swappie-product-iphone-8-gold.png" media="(prefers-color-scheme: light)" />
+                <img src="img/swappie-product-iphone-8-gold.png" alt="">
+            </picture>
+
+            <!-- <img src="img/swappie-product-iphone-8-gold.png" alt=""> -->
+        </div>
+        <div class="description">
+            <h1 class="title">iPhone 8</h1>
+            <h3 class="short-summary-description">Gold | 256 GB | Very Good</h3>
+            <h4>Colour: Gold</h4>
+            <div class="options">
+                <div class="option1">
+
+                </div>
+                <div class="option2">
+
+                </div>
+                <div class="option3">
+
+                </div>
+                <div class="option4">
+
+                </div>
+            </div>
+            <h4>Capacity</h4>
+            <ul class="capacity-options">
+                <li>
+                    64GB
+                </li>
+                <li>
+                    128GB
+                </li>
+                <li>
+                    256GB
+                </li>
+            </ul>
+            <h4>Condition</h4>
+            <ul class="condition-options">
+                <li>
+                    Useable
+                </li>
+                <li>
+                    Good
+                </li>
+                <li>
+                    Excellent
+                </li>
+            </ul>
+            <div class="condition-description">
+                <strong>Good</strong>: The phone will have visible signs of wear, such as scratches, dents or other
+                marks. The phone
+                is
+                unlocked, fully tested and works like new.
+            </div>
+            <div class="price-and-selected-options">
+                <strong>Gold | 64 GB | Good</strong>
+                <h3 class="price">199 €</h3>
+            </div>
+            <div class="details">
+                <label for="first-name">First name</label>
+                <input type="text" id="first-name" name="firstname" />
+                <label for="last-name">Last name</label>
+                <input type="text" id="last-name" name="lastname" />
+                <label for="street">Address</label>
+                <input type="text" id="street" name="street" />
+            </div>
+            <div class="terms">
+                <input type="checkbox" id="terms-agreement" />
+                <label for="terms-agreement">I agree with <a href="http://"> terms and conditions</a></label>
+            </div>
+            <button class="cta-button">
+                To payment
+            </button>
+        </div>
+    </section>
+</body>
+
+</html>
